@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .outter{
+            width: 1520px;
+            height: 800px;
+            background-color: rgb(188, 188, 244);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .inner1{
+            width: 650px;
+            height: 650px;
+            background-color: rgb(163, 248, 220);
+        }
+        .inner2{
+            width: 650px;
+            height: 650px;
+            background-color: rgb(253, 156, 187);
+        }
+        header{
+            background-color: gray;
+            height: 70px;
+            width: 1520px;
+            display: flex;
+            justify-content: center;
+            justify-content:  space-between;
+            align-items: center;
+        }
+        h3{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        h3:hover
+        {
+            color: aqua;
+            text-shadow: 0px 0px 15px whitesmoke ,2px -2px 15px whitesmoke,4px -4px 15px whitesmoke;
+        }
+        .hinbox1{
+            display: flex;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            width: 1000px;
+        }
+        .hinbox2
+        {
+            height: 70px;
+            width: 520px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input{
+            height: 25px;
+            width: 300px;
+            background-color: rgb(252, 198, 144);
+            border-radius: 20px;
+            border: none;
+            outline: none;
+        }
+        input:focus
+        {
+            background-color: aliceblue;
+            border: 2px solid rgb(252, 198, 144);
+            box-shadow: 0px 0px 15px rgb(250, 221, 87),2px 2px 15px rgb(250, 221, 87);
+        }
+        .button1{
+            height: 25px;
+            width: 100px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            background-color: rgb(249, 196, 98);
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        .button1:hover
+        {
+            border: 2px solid rgb(249, 196, 98);
+            background-color: aliceblue;
+            color: rgb(249, 196, 98);
+            box-shadow: 0px 0px 15px rgb(249, 196, 98) ,2px 2px 15px rgb(249, 196, 98) ,4px 4px 15px rgb(249, 196, 98);
+        }
+        .button2{
+            height: 25px;
+            width: 100px;
+            color: white;
+            background-color: rgb(113, 249, 98);
+            border: 2px solid white;
+            border-radius: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+        }
+        .button2:active
+        {
+            background-color: red;
+            border: 2px solid white;
+            box-shadow: 0px 0px 15px red,2px 2px 15px red,4px 4px 15px red;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hinbox1">
+            <h3>Home</h3>
+            <h3>Menu</h3>
+            <h3>About</h3>
+            <h3>Help</h3>
+        </div>
+        <div class="hinbox2">
+          <input type="text" placeholder="Search"> &nbsp;&nbsp;<button class="button1">Search</button> &nbsp;&nbsp;<button class="button2">LOG-OUT</button>
+        </div>
+    </header>
+    <div class="outter" >
+        <div class="inner1">
+
+        </div>
+        <div class="inner2">
+
+        </div>
+    </div>
+</body>
+</html>
