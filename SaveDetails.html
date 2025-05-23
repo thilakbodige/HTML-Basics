@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save-Details</title>
+    <style>
+        #outerbox
+        {
+            background: linear-gradient(rgb(255, 0, 0),rgb(68, 68, 203));
+            backdrop-filter: blur(50px);
+            height: 580px;
+            width:550px;
+            margin-left: 500px;
+            margin-top: 50px;
+            margin-bottom: 100px;
+            background-repeat: no-repeat;
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            border-radius: 15px;
+        }
+        body
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        label
+        {
+            font-size: 180%;
+        }
+        input
+        {
+            background-color: rgb(244, 240, 240);
+            height: 38px;
+            width:400px;
+            border-radius: 5px;
+        }
+        .innerbox
+        {
+            margin-top:25px;
+            color: white;
+        }
+        button
+        {
+           font-size: 20px;
+            border-radius: 15px;
+            background-color: rgb(242, 123, 5);
+            margin-left: 15px;
+            border-color: white;
+            border-style: double;
+        }
+        p{
+            font-size: 20px;
+            margin-left:200px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="outerbox">
+        <form action="Login2.html">
+            <div class="innerbox">
+                <label>Mobile No</label><br>
+                <input type="tel" placeholder="Enter Mobile No" required><br><br>
+            </div>
+            <div class="innerbox">
+                <label>Old Password</label><br>
+                <input type="Password" placeholder="Enter Old Password" required><br><br>
+            </div>
+            <div class="innerbox">
+                <label>New Password</label><br>
+                <input type="Password" placeholder="Enter New Password" required><br><br>
+            </div>
+            <div class="innerbox">
+                <label>Confirm New Password</label><br>
+                <input type="Password" placeholder="Enter Confirm Password" required><br><br>
+            </div>
+            <div class="innerbox">
+            <button type="Submit" style="height: 45px; width: 150px; color:white">Save Details</button>
+        </form>
+    </div>
+    </body>
+</html>
