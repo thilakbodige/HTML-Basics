@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasons</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/1389460/pexels-photo-1389460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-size: 100vh;
+            background-size: 350vb;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header{
+            background-color: #ECDCBF;
+            height: 70px;
+            width: 1530px;
+        }
+        h2{
+            text-align: center;
+            font-family:cursive;
+            color: #FE7743;
+            padding-top: 15px;
+            font-size: 30px;
+            
+        }
+        .outbox{
+            width: 1500px;
+            height: 500px;
+            background-color:#fdfbee84;
+            border-radius: 25px;
+            margin-top: 80px;
+            margin-left: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around
+        }
+        .inbox{
+            width: 200px;
+            height: 300px;
+            border-radius: 25px;
+            transition: 1s;
+        }
+        .inbox:hover{
+            transform: scale(1.2);
+            transition: 1s;
+        }
+        #a{
+            background-image: url(https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100vh;
+        }
+        #b{
+            background-image: url(https://images.pexels.com/photos/16852794/pexels-photo-16852794/free-photo-of-fog-covering-valley-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100vh;
+        }
+        #c{
+            background-image: url(https://images.pexels.com/photos/8056168/pexels-photo-8056168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100vh;
+        }
+        #d{
+            background-image: url(https://images.pexels.com/photos/2781760/pexels-photo-2781760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100vh;
+        }
+        #e{
+            background-image: url(https://images.pexels.com/photos/1563355/pexels-photo-1563355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-size: 100vh;
+        }
+        .sub{
+            width: 160px;
+            height: 275px;
+            border: 2px solid white;
+            color: white;
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-left: 10px;
+            opacity: 0;
+            transition: 1s;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .sub:hover{
+            transform: translatex(15px);
+            opacity: 1;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2> There are 5 Seasons</h2>
+    </header>
+    <main> 
+        <div class="outbox">
+            <div class="inbox" id="a">
+                <div  class="sub" >
+                    <h1 align="center">Winter</h1>
+                    <p align="center" style="margin-top: 50px;">The coldest season with the shortest daylight hours. Many regions experience snow, ice, and dormant plant life.</p>
+                </div>
+            </div>
+            <div class="inbox" id="b">
+                <div class="sub">
+                    <h1 align="center">Summer</h1>
+                    <p align="center" style="margin-top: 50px;">Given the time of day, the heat of the day is likely starting to subside slightly, but the warm evening air would still be quite noticeable.</p>
+                </div>
+            </div>
+            <div class="inbox" id="c">
+                <div class="sub">
+                    <h1 align="center">Rainy</h1>
+                    <p align="center" style="margin-top: 50px;">The impact of the rainy season on the environment is immediate and dramatic. The dry, cracked earth drinks deeply, transforming from a dusty brown to a rich, fertile hue.</p>
+                </div>
+            </div>
+            <div class="inbox" id="d">
+                <div class="sub">
+                    <h1 align="center">Spring</h1>
+                    <p align="center" style="margin-top: 50px;">A transitional season between winter and summer, characterized by warming temperatures, increasing daylight hours, and the revival of plant life </p>
+                </div>
+            </div>
+            <div class="inbox" id="e">
+                <div class="sub">
+                    <h1 align="center">Autumn</h1>
+                    <p align="center" style="margin-top: 50px;">Another transitional season, between summer and winter, marked by cooling temperatures, decreasing daylight hours, and the shedding of leaves by deciduous trees. </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
